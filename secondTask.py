@@ -1,8 +1,10 @@
-def rem_vowels(s):
-    vowels = ['a', 'e', 'i', 'o', 'u']
-    for v in vowels:
-        s = s.replace(v, '')
-    print(s)
 
 str = input("Введите строку: ")
-rem_vowels(str)
+str = str.replace( "a", '')
+str = str.replace("e",'')
+str = str.replace("i",'')
+str = str.replace("o",'')
+str = str.replace("u",'')
+
+print(str)
+
