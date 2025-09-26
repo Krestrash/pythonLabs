@@ -1,10 +1,10 @@
-def exchange(money):
-    notes = [100, 50, 10, 5, 2, 1]
-    result = {}
-    for b in notes:
-        result[b], money = divmod(money, b)
-    return result
-
-
 s = int(input("Введите сумму: "))
-print(exchange(s))
+oneh, s = divmod(s, 100)
+fifty, s = divmod(s, 50)
+ten, s = divmod(s, 10)
+five, s = divmod(s, 5)
+two, s = divmod(s, 2)
+one, s = divmod(s, 1)
+
+print(f"Купюры для размена: 100 = {oneh}, 50 = {fifty}, 10 = {ten}, 5 = {five}, 2 = {two}, 1 = {one} ")
+
