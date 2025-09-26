@@ -23,5 +23,6 @@ tax = tsum * 0.02
 total = tsum + tax
 
 print(f"Базовый тариф: {base:.2f} руб.")
+print(f"Дополнительная оплата: {extra:.2f} руб.")
 print(f"Налог: {tax:.2f} руб.")
 print(f"Итого: {total:.2f} руб.")
