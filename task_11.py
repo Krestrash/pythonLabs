@@ -1,0 +1,6 @@
+age = int(input("Enter your age "))
+income = int(input("Enter your monthly income "))
+credit = int(input("Enter credit"))
+credit_history = input("Enter credit history(excellent/good/normal/bad)")
+has_guarantor = bool(input("Do you have guarantor(1 - yes, 0 - no)"))
+has_loan = bool(input("Do you have loan(1 - yes, 0 - no)"))
