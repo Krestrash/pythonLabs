@@ -1,7 +1,7 @@
 sum = int(input("Enter sum "))
 age = int(input("Enter age "))
-is_birthday = bool(input("Is it your birthday today(0 - no, 1 - yes) "))
-vip = bool(input("Are you VIP(0 - no, 1 - yes) "))
+is_birthday = bool(int(input("Is it your birthday today(0 - no, 1 - yes) ")))
+vip = bool(int(input("Are you VIP(0 - no, 1 - yes) ")))
 discount = 0
 
 
@@ -17,4 +17,4 @@ if is_birthday:
 if discount >25:
     discount  = 25       
 
-print(discount)    
+print("Ваша скидка "+ str(discount))    
