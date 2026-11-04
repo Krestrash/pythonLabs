@@ -7,8 +7,8 @@ income = int(input("Введите месячный доход "))
 credit = int(input("Введите размер кредита "))
 term = int(input("Введите срок "))
 credit_history = input("Введите кред историю(отличная/хорошая/удовлетворительная/плохая)")
-has_guarantor = bool(input("Есть ли у вас поручитель(1 - да, 0 - нет)"))
-has_coll = bool(input("У вас есть залог(1 - да, 0 - нет)"))
+has_guarantor = bool(int(input("Есть ли у вас поручитель(1 - да, 0 - нет)")))
+has_coll = bool(int(input("У вас есть залог(1 - да, 0 - нет)")))
 
 ratio = credit / (income * 12)
 
